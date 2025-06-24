@@ -31,3 +31,4 @@ lightbox.addEventListener("click", (e) => {
     currentIndex = (currentIndex - 1 + myImages.length) % myImages.length;
     lightboxImg.src = myImages[currentIndex].src;
   });
+ 
